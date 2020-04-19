@@ -31,8 +31,8 @@
 + 一个随机化的数据结构，实质就是一种可以进行二分查找的有序链表。
 + 在原有的有序链表上面增加了多级索引，通过索引来实现快速查找。
 + 不仅能提高搜索性能，同时也可以提高插入和删除操作的性能。
-
-跳表查询、插入、删除的时间复杂度为O(log n)，与平衡二叉树接近；  
+![](https://raw.githubusercontent.com/wangzhenyu/algorithm008-class01/master/Week_01/skiplist3.png)
+跳表查询、插入、删除的时间复杂度为O(log n)，与平衡二叉树接近；
 redis用的眺表
 ## 逻辑结构 - 线性结构
 ### 栈 stack  
